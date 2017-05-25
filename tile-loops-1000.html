@@ -1,0 +1,70 @@
+<!doctype HTML>
+
+<html>
+
+<head>
+<title>Tile Loops 1000</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height" />
+<meta name="description" content="Colorful Sound Toy.  Built with Javascript and the WebAudio-API" />
+
+<style>
+
+p {
+	font-size:100%;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.button {
+	height: 8%;
+	top:0px;
+	float:left;
+	text-align:center;
+	opacity: 0.5; 
+	position:relative; 
+	border-radius: 5px;
+	padding: 5px;
+	overflow:hidden;
+}
+
+</style>
+</head>
+
+<body>
+<div id='container' style='position:relative'>
+<div id='gamecontainer'></div>
+<div id='buttoncontainer' style = "position:absolute; width:100%;">
+<div id="sequence_swipe_button" class = 'button' style="background: #9966ff;width: 10%;"><p>PLAY</p>
+</div>
+<div id="filter_up_button"  class = 'button' style="background: #42A5F5; width: 7%;"><p>FILT &#916;</p>
+</div>
+<div id="filter_down_button" class = 'button'  style="background: #42A5F5;width: 7%;"><p>FILT &#8711;</p>
+</div>
+<div id="volume_up_button"  class = 'button' style="background: #FFD54F; width: 7%;"><p>VOL &#916;</p>
+</div>
+<div id="volume_down_button" class = 'button'  style="background: #FFD54F;width: 7%;"><p>VOL &#8711;</p>
+</div>
+<div id="tempo_up_button" class = 'button'  style="background: #ff6600; width: 7%;"><p>TEM &#916;</p>
+</div>
+<div id="tempo_down_button"  class = 'button' style="background: #ff6600;width: 7%;"><p>TEM &#8711;</p>
+</div>
+<div id="generate_button" class = 'button'  style="background: #546E7A;width: 10%;"><p>RNDM</p>
+</div>
+<div id="clear_button" class = 'button'  style="background: #546E7A;width: 10%;"><p>CLR</p>
+</div>
+<div id="sound_toggle_button" class = 'button'  style="background: #ffff00;width: 10%;"><p>SND</p>
+</div>
+
+</div>
+</div>
+<br><br><br><br><br><br><br>
+<p id="info">Two fingers draws sound-tiles.  One finger pops them.  <br> Length = Time.  Height = Pitch.  <br> Use the lines for rhythm guidance...</p>
+
+
+</body>
+
+
+<script src='tile-pad-sequencer-v16-withvolume.js'></script>
+<script src='tpv16-keycontrols.js'></script>
+
+</html>
